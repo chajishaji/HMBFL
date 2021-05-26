@@ -3,25 +3,25 @@
 
 #### Program Under Test  
 * Put the program under test into 
-"./test_data/defect_root/source/".
+"./HMBFLtool/test_data/defect_root/source/".
 
 *  Modify the value of "defect_source_path" in 
- "start.sh".
+ "HMBFLtool/start.sh".
 
 
 #### test cases
-* Put the test cases into "./test_data/inputs/"
+* Put the test cases into "./HMBFLtool/test_data/inputs/"
 
 * if the test cases are read by the program under test by file redirection, the value of the "input_type" in "start.sh" need to be changed to "file", not "args"
 
 #### MBFL-guided HOMs generation strategy
-* The specific execution flow is viewed in "start_MBFL_randomization_higher_order_MBFL.sh"
+* The specific execution flow is viewed in "HMBFLtool/start_MBFL_randomization_higher_order_MBFL.sh"
 
 #### SBFL-guided HOMs generation strategy
-* The specific execution flow is viewed in "start_SBFL_randomization_higher_order_MBFL.sh"
+* The specific execution flow is viewed in "HMBFLtool/start_SBFL_randomization_higher_order_MBFL.sh"
 
 #### Entire random HOMs generation strategy
-* The specific execution flow is viewed in "start_entire_randomization_higher_order_MBFL.sh"
+* The specific execution flow is viewed in "HMBFLtool/start_entire_randomization_higher_order_MBFL.sh"
 
 The folder of the respective HOMS generation strategies contains the implementation code for the three suspiciousness statistics methods
 #### Experimental data set：
