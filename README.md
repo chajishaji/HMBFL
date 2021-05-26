@@ -4,7 +4,7 @@ Put the program under test into "./test_data/defect_root/source/", and modify th
 
 Put the standard program into "./test_data/true_root/", and modify the value of "true_source_path" in "start.sh".
 
-Put the test cases into "./test_data/inputs/", if the test cases are read by the program under test by file redirection, the value of the "input_type" in "start.sh" need to be changed to "file", not "args".
+Put the test cases into "./test_data/inputs/", if the test cases are read by the program under test by file redirection, the value of the "input_type" in "start.sh" need to be changed to "file", not "args"
 
 ### Experimental data set：
 
